@@ -30,7 +30,7 @@ __A = "Dies ist der Wert der Variablen __A"
 num_var_a = 1200.9
 
 #Die Variable: true mit dem Wert True
-#true = true 
+true = True 
 
 #Die Variable: True mit dem Wert 'Die Variable True'
 #True = 'Die Variable True'
@@ -48,7 +48,7 @@ name = "Herr o'Neal"
 name2 = "Frau o'Neal"
 
 #Die Variable: name3 mit dem Wert: 'Herr o\'Neal'
-#name3 = Herr o\'Neal'
+name3 = 'Herr o\'Neal'
 
 #Die Variable: buch1 mit dem Wert: 'Das Buch hat den Titel: "Der Name der Rose"'
 buch1 = 'Das Buch hat den Titel: "Der Name der Rose"'
@@ -64,11 +64,11 @@ buch4 = "Titel: \"Reise um die Erde in 80 Tagen\""
 
 #Die Variablen var_a, var_b und var_c erstellt in einer Anweisung mit Gleichheitszeichen
 #und einer Wertzuweisung von 100.
-#var_a, var_b, var_c = 100
+var_a = var_b = var_c = 100
 
 #Die Variablen var_d, var_e, var_f erstellt durch Kommata voneinander getrennt aufgeschrieben
 #und einem, beliebig von Ihnen gewältem, Wert hinter dem Gleichheitszeichen.
-#var_d, var_e, var_f = 456, 
+#var_d, var_e, var_f = 456 
 
 #Die Variablen var_f, var_g und var_h erstellt mit Kommata voneinander getrennt und drei,
 #beliebig von Ihnen gewählten, numerischen Werten hinter dem Gleichheitszeichen.
@@ -80,6 +80,9 @@ var_f, var_g, var_h = 33, "Hallo" ,True
 #Hinweis: Reiner Text und der Inhalt einer Variablen kann ausgegeben werden, wenn mehrere
 #print() Argumente durch ein Komma voneinander getrennt werden.
 print(f"Variable a: {a}")
+
+print("Variable a:", a)
+
 print(f"Variable A: {A}")
 print(f"Variable _A: {_A}")
 print(f"Variable __A: {__A}")
@@ -94,19 +97,22 @@ print(f"Variable buch4: {buch4}")
 print(f"Variable var_f: {var_f}")
 print(f"Variable var_g: {var_g}")
 print(f"Variable var_h: {var_h}")
+#print(f"Variable var_a: {var_a}")
 
 
 #3. Beim deklarieren von Variablen gibt es verschiedene Styles. Recherchieren Sie die
 #folgenden Möglichkeiten Variablen zu deklarieren:
 
-#Pascal Case
-#DasIstPascalCase
+'''
+Pascal Case (Python: für Klassen)
+DasIstPascalCase
 
-#Snake Case
-#das_ist_snake_case
+Snake Case
+das_ist_snake_case
 
-#Camel Case
-#dasIstCamelCase
+Camel Case (Python: für Methoden)
+dasIstCamelCase
 
-#Ungarische Notation
-#wie Camel Case und zusätzlich mit 3 buchstabigen Präfix: strFirstName oder intEineWichtigeZahl
+Ungarische Notation
+wie Camel Case und zusätzlich mit 3 buchstabigen Präfix: strFirstName oder intEineWichtigeZahl
+'''
