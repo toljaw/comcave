@@ -40,3 +40,5 @@ print(f"Das erste Element (hier '1') wurde mit '10' ersetzt.\nJetzt sieht die Li
 '''
 t = tuple(l)
 print(f"Der geänderte Tuple 't' sieht jetzt so aus: {t}\n")
+t = (50,20.66)
+print(t)

@@ -12,7 +12,7 @@ num_list = [10, -90, 1001, 43, -800]
 Strings zu formatieren (%, f-String, format()), aus.
 '''
 num_list_laenge = len(num_list)
-print(f"Elementanzahl der Liste 'num_list': {num_list_laenge}\n")
+print(f"\nElementanzahl der Liste 'num_list': {num_list_laenge}\n")
 
 '''
 2. Geben Sie die einzelnen Werte von num_list aus, indem Sie den zugehörigen Index referenzieren.
@@ -43,7 +43,7 @@ num_list_geordnet.append(num_list[1])
 num_list_geordnet.append(num_list[0])
 num_list_geordnet.append(num_list[3])
 num_list_geordnet.append(num_list[2])
-print(f"'num_list_geordnet' enthält folgende Elemente: {num_list_geordnet}")
+print(f"'num_list_geordnet' wurde manuell mit Methode '.append()' soriert und enthält folgende Elemente: {num_list_geordnet}")
 print()
 
 '''
@@ -53,4 +53,4 @@ die, nach der Reihenfolge, geordneten Indizes von num_list zuweisen.
 num_list_geordnet_2 = num_list
 num_list_geordnet_2.sort()
 
-print(f"'num_list_geordnet_2' enthält folgende Elemente: {num_list_geordnet_2}")
+print(f"'num_list_geordnet_2' wurde mit der Methode '.sort()' automatisch sortiert und enthält folgende Elemente: {num_list_geordnet_2}\n")
