@@ -67,3 +67,30 @@ abc_ag_dict.update(dict_umsätze)                    #mit der Methode '.update()
 for i in abc_ag_dict:                               #mit Hilfe der for-Schleife wurden hier Keys und Values ausgegeben
     print(f"{i}: {abc_ag_dict.get(i)}")
 print()
+
+"""
+4. Führen Sie nun die folgenden Auswertungen durch und fügen Sie diese als key/value-Paare
+dem dict hinzu.
+
+Key:            Value:
+Umsatz_Q1       Summe der Umsätze aus abc_ag_umsaetze[0] - abc_ag_umsaetze[2]
+Umsatz_Q2       Summe der Umsätze aus abc_ag_umsaetze[3] - abc_ag_umsaetze[5]
+Umsatz_Q3       Summe der Umsätze aus abc_ag_umsaetze[6] - abc_ag_umsaetze[8]
+Umsatz_Q4       Summe der Umsätze aus abc_ag_umsaetze[9] - abc_ag_umsaetze[11]
+
+Die kumulierten Umsätze können Sie wahlweise mit der Funktion sum() oder auch händisch berechnen.
+Wenn Sie mit sum() arbeiten können Sie die Listenwerte geeignet slicen.
+"""
+
+umsatz_kum = [8000]
+
+for i in range(11):
+    umsatz_kum.append(umsatz_kum[i] + abc_ag_umsaetze[i+1])
+    
+print(umsatz_kum)
+print()
+
+#kommt evtl. später
+"""
+5. Geben Sie das dict nun aus.
+"""
