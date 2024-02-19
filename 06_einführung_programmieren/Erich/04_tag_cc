@@ -12,6 +12,7 @@ Erstelle eine Mehrfachverzweigung mit Eingabe des Gewichts und der Ausgabe des N
 '''
 # gewicht = float(input("Wie schwer ist dein Hund in Kg? "))
 # name = ""
+
 # if gewicht < 1:
 #     name = "Teacup"
 # elif gewicht < 5:
