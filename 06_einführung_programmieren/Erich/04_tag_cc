@@ -10,42 +10,82 @@ andernfalls Name = “Dickmops”
 
 Erstelle eine Mehrfachverzweigung mit Eingabe des Gewichts und der Ausgabe des Namens. 
 '''
+# gewicht = float(input("Wie schwer ist dein Hund in Kg? "))
+# name = ""
+# if gewicht < 1:
+#     name = "Teacup"
+# elif gewicht < 5:
+#     name = "Maus"
+# elif gewicht < 10:
+#     name = "Wauzi"
+# elif gewicht < 30:
+#     name = "Horst"
+# else:
+#     name = "Dickmops"
+
+# print(f"Dein Hund heißt {name}!")
 
 
 '''
 413
-Du möchtest eine Programmiersprache wählen.  
+Du möchtest eine Programmiersprache wählen. 
 Dazu gibst du dein Level ein, als Text 
 
-Einsteiger:  Python 
-Amateur:  Javascript 
+Einsteiger: Python 
+Amateur: Javascript 
 Profi : Java 
 Nerd: C# 
-andernfalls : Finger weg!   
+andernfalls : Finger weg! 
 
-Erstelle eine Mehrfachverzweigung für die Prüfung des Levels (Eingabe oder Zuweisung….. z.B. level = “profi”  ) und gib dann die entsprechende Programmiersprache aus. 
+Erstelle eine Mehrfachverzweigung für die Prüfung des Levels (Eingabe oder Zuweisung….. z.B. level = “profi” ) und gib dann die entsprechende Programmiersprache aus. 
 '''
+# level = input("\nWähle zwischen den folgenden Leveln: \n'Einsteiger', 'Amateur', 'Profi' oder 'Nerd': ")
+# sprache = ""
+# match level:
+#     case "Einsteiger":
+#         sprache = "Python"
+#     case "Amateur":
+#         sprache = "Javascript"
+#     case "Profi":
+#         sprache = "Java"
+#     case "Nerd":
+#         sprache = "C#"
+#     case _:
+#         sprache = "Finger weg!"
 
-
-
+# print(f"\nDie richtige Wahl für dich ist: {sprache}...\n")
+    
+ 
 '''
 421
 Gib deinen Vornamen ein. Ist die Anzahl der Zeichen größer als 7, so gib den Text o.ä. aus: "Dein Name ist lang!" 
 '''
+# vorname = input("\nGib deinen Vornamen ein: ")
 
+# if len(vorname) > 7:
+#     print("Dein Name ist lang!") 
+
+# print()
 
 
 '''
 422
 Nutzer soll eine Zahl mit mehr als 3 Stellen eingeben. Wenn diese Zahl gerade ist, gebe diese Zahl aus. 
 '''
+# zahl = int(input("Gib eine dreistellige Zahl ein: "))
 
+# if zahl % 2 == 0:
+#     print(zahl)
 
 
 '''
 423
 Nutzer soll eine Automarke eingeben. Wenn die Automarke "BMW" ist, gebe den Text " aus Bayern" aus. 
 '''
+# automarke = input("Gebe eine Automarke ein: ")
+
+# if automarke.lower() == "bmw":
+#     print("aus Bayern")
 
 
 '''
@@ -54,7 +94,10 @@ Weise einer Variablen eine Zahl zwischen 0 und 20 zu (Oder formuliere dafür ein
 Berechne das Quadrat. Ist das Quadrat größer gleich 100 , so gib einen Text aus (ähnlich): " Die Zahl ist größer oder gleich 100". 
 Andernfalls gib den Text o.ä. aus: "Zahl ist kleiner als 100" 
 '''
+# zahl = int(input("Gebe eine Zahl zwischen 0 und 20 ein: "))
 
+# if zahl ** 2 >= 100:
+#     print("Die Zahl ist größer gleich 100.")
 
 
 '''
@@ -63,3 +106,9 @@ Nutzer gibt eine Zahl zwischen 10 und 20 ein.
 Berechne den Prozentsatz zum Grundwert 100. 
 Wenn der Prozentsatz kleiner als 15% ist, erfolgt die Ausgabe des Textes “Weniger als 15%”. Sonst erfolgt die Ausgabe “mindestens 15%”. 
 '''
+# zahl = float(input("Gebe eine Zahlzwischen 10 und 20 ein: "))
+
+# if zahl/100 < 0.15:
+#     print("Weniger als 15%")
+# else:
+#     print("mindestens 15%")
