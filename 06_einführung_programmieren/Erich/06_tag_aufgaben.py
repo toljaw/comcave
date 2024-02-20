@@ -7,6 +7,7 @@
 # n2 = 20 
 
 # def  mittel(a,b):
+#     '''Beschreibung blub blub...'''
 #     ergebnis = (a+b)/2
 #     return ergebnis 
 
@@ -135,14 +136,14 @@ def sumB(n):
     while True:
         summe = summe + hilfszahl
         hilfszahl += 1
-        if hilfszahl == 101:
+        if hilfszahl == n+1:
             break
     return summe
 
 
 def sumC(n):
     summe = 0
-    for i in range(0,101):
+    for i in range(0,n+1):
         summe += i
     return summe
 
@@ -182,7 +183,7 @@ print ('Variante C:', dauerC, ' sec')
 '''
 Die Messung aus der 3. Aufgabe führt zum folgenden Ranking:
 
-🥇  Variante B: 0.023721933364868164  sec
-🥈  Variante C: 0.01630687713623047  sec
-🥉  Variante A: 1.4665429592132568  sec
+🥇  Variante C: 1.6409039497375488  sec
+🥈  Variante A: 2.1161859035491943  sec
+🥉  Variante B: 2.8371880054473877  sec
 '''
